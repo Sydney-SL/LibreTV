@@ -16,7 +16,9 @@
 }
 
 .page-bg {
-    background: linear-gradient(180deg, var(--page-gradient-start), var(--page-gradient-end));
+    background: url('https://pic.712521.xyz/file/1744549171968_2022-06-12 「中心」 洛天依 [深谷Shintani].jpg') no-repeat center center fixed; /* 组合设置 */
+    background-size: cover; /* cover 属性需要单独设置 */
+/*     background: linear-gradient(180deg, var(--page-gradient-start), var(--page-gradient-end));
     min-height: 100vh;
     /* 柔和赛博点状背景 */
     background-image: 
@@ -25,7 +27,7 @@
         radial-gradient(circle at 75px 75px, rgba(255, 60, 120, 0.02) 1px, transparent 2px),
         radial-gradient(circle at 50px 50px, rgba(150, 255, 250, 0.015) 1px, transparent 2px);
     background-blend-mode: normal;
-    background-size: cover, 100px 100px, 50px 50px, 75px 75px;
+    background-size: cover, 100px 100px, 50px 50px, 75px 75px; */
 }
 
 button, .card-hover {
